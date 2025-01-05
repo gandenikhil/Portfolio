@@ -3,17 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - [Your Name]</title>
+    <title>Portfolio - Gande Nikhil</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
     <!-- Hero Section -->
     <header id="hero">
         <div class="container">
+            <img src="nikhil_photo.jpeg" alt="Profile Picture" class="profile-pic">
             <h1>Hi, I'm <span>Gande Nikhil</span></h1>
             <p>Full-Stack Developer | Problem Solver | Tech Enthusiast</p>
             <div class="cta-buttons">
-                
                 <a href="Resume.pdf" class="btn">Download Resume</a>
             </div>
         </div>
@@ -23,14 +35,85 @@
     <section id="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>I'm Gande Nikhil, a passionate full-stack developer with 8 years of experience building scalable web applications. My expertise lies in creating seamless user experiences and robust backend systems. I thrive on solving complex problems and delivering quality software.</p>
-            <h3>Technologies:</h3>
-            <ul>
-                <li>Frontend: HTML, CSS, JavaScript, React, Angular</li>
-                <li>Backend: Node.js, Java (Spring Boot), Python</li>
-                <li>Database: MySQL, MongoDB</li>
-                <li>DevOps: Docker, Kubernetes, AWS, CI/CD Pipelines</li>
-            </ul>
+            <div class="about-content">
+                <p>
+                    A dedicated and skilled Software Engineer with over 8+ years of experience in designing, developing, and maintaining robust and scalable software solutions. Proficient in Java, Kotlin, J2EE, Spring Frameworks (including Spring Boot), and ORM tools like Hibernate and JPA. Excels in full-stack development, with expertise in front-end technologies such as JavaScript, HTML, CSS, Bootstrap, and advanced UI frameworks like React and Angular. Demonstrates strong proficiency in building back-end services using RESTful APIs, complemented by extensive experience in database design, complex SQL queries, and MongoDB (NoSQL). Well-versed in Git for version control and highly experienced in Agile methodologies. Recognized for exceptional problem-solving skills and a proven ability to collaborate effectively with cross-functional teams to deliver high-quality software. Possesses in-depth knowledge of algorithms, data structures, and design patterns, along with extensive hands-on experience with DevOps tools like Jenkins, Docker, and AWS cloud services. Adept at working in Unix/Linux environments.
+                </p>
+                <h3>Technologies:</h3>
+                <ul>
+                    <li>Frontend: HTML, CSS, JavaScript, React, Angular</li>
+                    <li>Backend: Node.js, Java (Spring Boot), Python</li>
+                    <li>Database: MySQL, MongoDB</li>
+                    <li>DevOps: Docker, Kubernetes, AWS, CI/CD Pipelines</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+<section id="education">
+    <div class="container">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>Master's in Computer Science</h3>
+            <p><strong>University:</strong>  University of Missouri - Kansas City</p>
+            <p><strong>Grade:</strong>3.8 </p>
+        </div>
+        <div class="education-item">
+            <h3>Bachelor of Technology in Computer Science</h3>
+            <p><strong>University:</strong> Sri Indu College of Engineering and Technology</p>
+            <p><strong>Grade:</strong> 8.8</p>
+            
+        </div>
+    </div>
+</section>
+
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Software Developer</h3>
+                <p><strong>Company:</strong> Bank of Montreal.</p>
+                <p><strong>Duration:</strong> Dec 2023 - Present</p>
+                <p><strong>Project Description:</strong>
+                
+                    Developed a secure and scalable web application for BMO customers to manage checking accounts efficiently. Features include real-time transaction tracking, account insights, fund transfers, and secure bill payments. The platform utilizes modern front-end, back-end, and cloud technologies for an enhanced customer experience and operational efficiency
+                </p>
+                
+            </div>
+            <div class="experience-item">
+                <h3>Software Developer</h3>
+                <p><strong>Company:</strong>Universal Orlando</p>
+                <p><strong>Duration:</strong> Jan 2022- Nov 2023</p>
+                <p><strong>Project Description:</strong>
+                
+                    Played a key role in redesigning the Universal Orlando digital platform, focusing on improving the user experience for ticket and hotel bookings. Worked collaboratively with design and development teams to create a seamless, intuitive interface. Enhanced platform performance and user engagement, contributing to a more efficient and enjoyable online experience for visitors
+                
+                </p>
+                
+            </div>
+
+            <div class="experience-item">
+                <h3>Software Developer</h3>
+                <p><strong>Company:</strong>Kohls</p>
+                <p><strong>Duration:</strong> Nov 2019- Dec 2021</p>
+                <p><strong>Project Description:</strong>
+                    Developed a seamless platform integrating e-commerce and in-store shopping experiences for Kohl’s as a Full Stack Developer. Designed and implemented features for intuitive navigation, personalized recommendations, and efficient checkout processes. Optimized backend systems to enhance inventory management and enable data-driven decision-making. Collaborated with cross-functional teams to deliver scalable, user-centric solutions. Contributed to improving digital efficiency, customer satisfaction, and business growth.
+                </p>
+                
+            </div>
+
+            <div class="experience-item">
+                <h3>Software Developer</h3>
+                <p><strong>Company:</strong>Zomato</p>
+                <p><strong>Duration:</strong> Dec 2016 - Oct 2019</p>
+                <p><strong>Project Description:</strong>
+                    Contributed to various initiatives at Zomato, a leading global restaurant discovery and food delivery service. Collaborated with cross-functional teams to enhance the platform’s functionality, focusing on improving user experience, scaling the system, and optimizing performance. Played a key role in implementing features for restaurant search, order management, and customer interaction, ensuring a seamless experience for both users and restaurant partners. Focused on achieving business goals through innovative solutions and data-driven strategies
+                </p>
+               
+            </div>
         </div>
     </section>
 
@@ -39,11 +122,9 @@
         <div class="container">
             <h2>Projects</h2>
             <div class="project">
-                <h3>Please visit my Github for all my projects</h3>
-                
+                <h3>Please visit my GitHub for all my projects</h3>
                 <a href="https://github.com/gandenikhil" class="btn">GitHub Repo</a>
             </div>
-            <!-- Add more projects here -->
         </div>
     </section>
 
@@ -62,7 +143,6 @@
                 <div class="skill">AWS</div>
                 <div class="skill">Docker</div>
                 <div class="skill">Kubernetes</div>
-                <!-- Add more skills -->
             </div>
         </div>
     </section>
